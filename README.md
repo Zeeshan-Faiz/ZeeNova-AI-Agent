@@ -130,5 +130,37 @@ streamlit run streamlit_app.py
 
 ## 🧪 Example Queries You Can Try
 
+- “What’s the current weather in Mumbai?”
+- “Tell me latest stock price of Tesla”
+- “Search YouTube for Cristiano Ronaldo’s latest video”
+- “Check Indian Railways live status for train 12951”
+- “What are the current recharge plans for Airtel prepaid?”
+- “Convert 100 USD to INR”
+- “Is 15th August a public holiday in India?”
+
+---
+
+## 🛠️ Project Structure
+
+ZeeNova-AI-Agent/
+│
+├── agent/                  # Agent setup using LangChain ReAct
+│   └── agent_setup.py
+│
+├── tools/                  # All tool logic and registry
+│   ├── tool_functions.py   # Actual logic of tool functions
+│   └── tool_registry.py    # Registers tools using LangChain's Tool class
+│
+├── models/                 # Model enum and wrapper
+│   └── model_enum.py
+│
+├── api/                    # FastAPI backend for chat and routing
+│   └── main.py
+│
+├── main.py                 # Entry point for Streamlit-based UI
+├── .env                    # Environment file for API keys
+├── requirements.txt        # Python package dependencies
+└── README.md               # Project documentation
 
 
+---
