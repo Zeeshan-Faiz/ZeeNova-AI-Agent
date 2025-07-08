@@ -2,7 +2,7 @@
 
 ZeeNova is a fully autonomous, tool-augmented **AI Agent** designed to perform real-world, goal-driven tasks intelligently using LLM reasoning and dynamic tool invocation. Unlike traditional chatbots or retrieval-based assistants (RAG), ZeeNova acts as a **decision-making agent** that selects and uses the right tools to answer complex, real-time queries.
 
-> Powered by LangChain · Integrated with 15+ Real-World Tools · Deployed with FastAPI and Streamlit
+> Powered by LangChain · Integrated with 15+ Real-World Tools · Deployed with Streamlit
 
 ![ZeeNova_AI_Agent_screenshot](./ZeeNova_Agent_ss.png)
 
